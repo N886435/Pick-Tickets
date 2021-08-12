@@ -1,20 +1,32 @@
-.App {
-  text-align: center;
+.App {  
+  height:120vh;
+ display: flex;
+
+ 
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
   pointer-events: none;
+  position:fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.App-fill {
+  width: 60px;
+  height:2px;
+  background-color: #8cd600;
+  font : 8pt arial, verdana, helvetica;
+  color: aliceblue;
+  
+}
+
+@media only screen and (hover: none) and (pointer: coarse){
+  .element-to-hide {
+    display: none;
   }
 }
-
 .App-header {
-  background-color: #282c34;
+ 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,11 +35,62 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
 
+
+
+ .h5{
+  height:14px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  color:#464646;
+
+}
+.footer{
+  height:14px;
+  font-family: Arial;
+  font-size: 12px;  
+  text-align: center;
+  color:#464646;
+  align-items: center;  
+   
+}
+.popup-box {
+  position: absolute;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display:flex; 
+ justify-content: top;
+ align-items: center; 
+ flex-direction:column;
+ 
+}
+ 
+.box {
+  position:absolute;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #f2f2f2;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+  
+}
+.b{
+  width:200px;
+}
+ 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

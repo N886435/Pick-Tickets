@@ -1,0 +1,82 @@
+.Login
+{
+ height: 98vh;
+ display:flex; 
+ justify-content: center;
+ align-items: center; 
+ flex-direction:column;
+ background: #f2f2f2;
+}
+
+.Login-logo
+{
+    height: 30px;    
+    position:absolute;
+    vertical-align: top;
+}
+
+.Login-container
+{ 
+  width : 300px;        
+    display: inline-block;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding:1px 20px;
+
+}
+
+.Login-container> label
+{
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-family: Arial;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #8cd600;
+}
+
+.Login-container>address{
+  color:white;
+  font-family: Arial;
+  font-size: small;
+  display: block;
+  font-style: italic;
+}
+
+.Login-container> address > a{
+color:#097d8a;
+}
+
+.Login-container > form > input
+{
+  height : 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+
+.Login-container > form > button
+{
+  background: #007d8a;
+  border-radius: 2px;
+  width : 100%;
+  height : 30px;
+  border : 1px solid;
+  margin-top : 10px ;
+  border-color : #a88734 #9c7e31 #846a29;
+
+
+}
+.b{
+  font-weight: bold;
+  font-size : 20px;
+}
+hr{
+  
+  border-color: #8cd600;
+  color: #8cd600;
+background-color: #8cd600;
+height: 0.5px;
+}
